@@ -47,4 +47,9 @@ public class CustomerController {
         customerServiceImpl.deleteById(custId);
         return ResponseEntity.ok("Data Deleted successfully");
     }
+
+    public ResponseEntity<String>fdsg(@PathVariable int custId){
+        customerServiceImpl.deleteById(custId);
+        return ResponseEntity.ok("hiiiiiiiiiiiiiiiiiiiii");
+    }
 }
